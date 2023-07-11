@@ -1,0 +1,22 @@
+name: Assign
+
+permissions:
+  issues: write
+  pull-requests: write
+
+on:
+  issues:
+    types: [ opened ]
+  pull_request:
+    types: [ opened ]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Auto-assign issue"
+        uses: pozil/auto-assign-issue@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          assignees: meslzy
+          numOfAssignee: 1

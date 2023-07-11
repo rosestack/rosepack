@@ -1,0 +1,9 @@
+{
+  "extends": "@meslzy/tsconfig",
+  "include": [
+    "roserepo.ts"
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "shortDescription": "Astonishing database and easy to use",
+  "longDescription": "Rose db is key-value database that is easy to use and astonishing",
+  "features": [
+    {
+      "name": "Fast",
+      "description": "Rose db is fast and easy to use"
+    },
+    {
+      "name": "Fast",
+      "description": "Rose db is fast and easy to use"
+    },
+    {
+      "name": "Fast",
+      "description": "Rose db is fast and easy to use"
+    },
+    {
+      "name": "Fast",
+      "description": "Rose db is fast and easy to use"
+    }
+  ],
+  "action": {
+    "primary": {
+      "name": "Getting Started",
+      "url": "getting-started"
+    },
+    "secondary": {
+      "name": "Introduction",
+      "url": "introduction"
+    }
+  },
+  "navbar": [
+    {
+      "name": "Plugins",
+      "url": "plugins",
+      "sub": [
+        {
+          "name": "Ui",
+          "url": "ui"
+        }
+      ]
+    }
+  ],
+  "sidebar": [
+    {
+      "name": "Introduction",
+      "url": "introduction"
+    },
+    {
+      "name": "Getting Started",
+      "url": "getting-started"
+    }
+  ]
+}

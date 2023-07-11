@@ -1,0 +1,40 @@
+{
+  "extends": "@meslzy/tsconfig",
+  "compilerOptions": {
+    "rootDir": "lib",
+    "outDir": "dist",
+    //,
+    "baseUrl": "lib",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "~bin/*": [
+        "./bin/*"
+      ],
+      "~rosepack/*": [
+        "./rosepack/*"
+      ],
+      "~rosetask/*": [
+        "./rosetask/*"
+      ],
+      "~shared/*": [
+        "./shared/*"
+      ],
+      "~types/*": [
+        "./types/*"
+      ]
+    }
+  },
+  "include": [
+    "lib",
+    "runtime",
+    "test",
+    "roserepo.ts",
+    "rosepack.ts",
+    "rosepack.d.ts"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}

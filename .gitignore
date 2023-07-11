@@ -1,0 +1,11 @@
+# ide
+.idea/
+
+# node
+node_modules/
+
+# output
+dist/
+
+# roserepo
+.roserepo/
