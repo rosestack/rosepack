@@ -1,0 +1,7 @@
+{
+  "name": "@rosepack/docs",
+  "type": "module",
+  "dependencies": {
+  },
+  "private": true
+}

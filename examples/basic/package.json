@@ -1,0 +1,9 @@
+{
+  "name": "basic",
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "watch": "rosepack-dev -f dts esm cjs -w",
+    "build": "rosepack-dev -f dts esm cjs"
+  }
+}
