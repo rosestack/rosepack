@@ -1,0 +1,39 @@
+{
+  "shortDescription": "Astonishing bundler using rollup and swc",
+  "longDescription": "Rosepack is a bundler that uses rollup and swc to bundle your code. It is fast and easy to use.",
+  "features": [
+    {
+      "name": "Multi format",
+      "description": "Rosepack can bundle your code into all formats rollup supports."
+    },
+    {
+      "name": "Generate declaration",
+      "description": "Rosepack can generate declaration files for your code."
+    },
+    {
+      "name": "Fast Compilation",
+      "description": "Rosepack leverages swc to speed up the compilation process."
+    }
+  ],
+  "action": {
+    "primary": {
+      "name": "Getting Started",
+      "url": "getting-started"
+    },
+    "secondary": {
+      "name": "Introduction",
+      "url": "introduction"
+    }
+  },
+  "navbar": [],
+  "sidebar": [
+    {
+      "name": "Introduction",
+      "url": "introduction"
+    },
+    {
+      "name": "Getting Started",
+      "url": "getting-started"
+    }
+  ]
+}

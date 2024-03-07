@@ -1,0 +1,12 @@
+{
+  "name": "@rosepack/docs",
+  "type": "module",
+  "scripts": {
+    "dev": "rosestack dev",
+    "preview": "rosestack"
+  },
+  "dependencies": {
+    "@rosestack/docs": "file:../../rosestack/packages/docs"
+  },
+  "private": true
+}

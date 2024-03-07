@@ -1,0 +1,15 @@
+# ide
+.idea/
+
+# node
+node_modules/
+
+# rosepack
+dist/
+types.d.ts
+
+# roserepo
+.roserepo/
+
+# vitest
+coverage/
